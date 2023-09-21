@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: var(--text);
+  
+  background-position: center;
+  background-image: url('../../public/bg-desktop.png');
+  background-size: cover;
+  height: 100vh;
+
+  @media (max-width: 768px) {
+    background-image: url('../../public/bg-mobile.png');
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --black: #000;
+  --text: #FFFFFF; 
+
+  --stroke-color-dark-mode: #FFFFFF80;
+  --surface-color-dark-mode: #FFFFFF1A;
+  --surface-color-dark-mode-hover: #FFFFFF0D;
+}
