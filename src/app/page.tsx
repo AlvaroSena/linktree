@@ -7,7 +7,7 @@ export default function Home() {
         <div className="profile">
           <img
             src="https://avatars.githubusercontent.com/u/73470355?s=400&u=f3ca3fe115cdeac57075dea21422684a25238f59&v=4"
-            alt=""
+            alt="Foto de perfil do Álvaro"
             className="avatar"
           />
           <span className="username">Álvaro Sena</span>
